@@ -17,14 +17,14 @@ at `http://localhost:3000/toys`. You can also check out
 
 ## Fetch Andy's Toys
 
-On the `index.html` page, there is a `div` with the `id` "toy-collection."
+<!-- On the `index.html` page, there is a `div` with the `id` "toy-collection."
 
 When the page loads, make a 'GET' request to fetch all the toy objects. With the
 response data, make a `<div class="card">` for each toy and add it to the
-toy-collection `div`.
+toy-collection `div`. -->
 
 ## Add Toy Info to the Card
-
+<!-- 
 Each card should have the following child elements:
 
 * `h2` tag with the toy's name
@@ -41,11 +41,11 @@ After all of that, the toy card should resemble:
     <p>4 Likes </p>
     <button class="like-btn">Like <3</button>
   </div>
-```
+``` -->
 
 ## Add a New Toy
 
-When a user submits the toy form, two things should happen:
+<!-- When a user submits the toy form, two things should happen:
 
 * a `POST` request should be sent to `http://localhost:3000/toys` and the new
   toy added to Andy's Toy Collection.
@@ -71,7 +71,7 @@ body: JSON.stringify({
 })
 ```
 
-For examples, refer to the [documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options).
+For examples, refer to the [documentation](https://developer.mozilla.org/en-US/docs/Web/API/Fetch_API/Using_Fetch#Supplying_request_options). -->
 
 ## Increase Toy's Likes
 
